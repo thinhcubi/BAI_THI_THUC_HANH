@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let Fibonacy = [];
+
+    let a=0;
+    Fibonacy.push(a);
+    let b=1;
+    Fibonacy.push(b);
+    let sum=0;
+    for(let i=0;i<20;i++){
+        sum = a+b ;
+        a = b;
+        b = sum  ;
+        Fibonacy.push(sum)
+    }
+
+    function isFibonacci(n){
+         n = +prompt('Nhap tu ban phim');
+         let flag = false;
+         for(let i =0;i<Fibonacy.length;i++){
+             if (n===Fibonacy[i]){
+                 flag = true;
+             }   {
+
+
+         }
+
+    }  if(flag){
+            console.log(flag)
+        } else{
+             console.log(flag)
+        }
+
+    }
+    isFibonacci();
+</script>
+
+</body>
+</html>
